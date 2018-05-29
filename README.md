@@ -34,7 +34,7 @@ Due to the off-the-shelf dimensions of the 16x8 matrix and the CSR specification
 Hence those two rows are not used in most of this code so don't think your matrix is broke !!!
 
 Wiring
-- Power comes from 5V source and needs to be connected to both the Arduino and LED matrix. Using a longer (17mm) pin header bent 90 degrees, you can daisy-chain teh connection. (see pictures)
+- Power comes from 5V source and needs to be connected to both the Arduino and LED matrix. Using a longer (17mm) pin header bent 90 degrees, you can daisy-chain the connection. (see pictures)
 - The patterns can be triggered in the following ways:
 
 A) Jumper(7 & 8) - All LED ON
