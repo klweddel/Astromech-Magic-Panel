@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MagicPanel", "MagicPanel\MagicPanel.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "McWhlr", "McWhlr", "{90B27009-FAAA-4F16-ACDD-8A15F038BFEB}"
+	ProjectSection(SolutionItems) = preProject
+		..\MCWHLR - MagicPanel_v010_5\MagicPanel_v010_5\MagicPanel_v010_5.ino = ..\MCWHLR - MagicPanel_v010_5\MagicPanel_v010_5\MagicPanel_v010_5.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adafruit Example", "Adafruit Example", "{0FBC183F-538B-4E93-B542-DD70D3AA1333}"
+	ProjectSection(SolutionItems) = preProject
+		..\Adafruit\matrix16x8\matrix16x8.ino = ..\Adafruit\matrix16x8\matrix16x8.ino
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8BE17CE-CCEF-4650-B989-DC9B528A36AC}
+	EndGlobalSection
+EndGlobal
