@@ -1,6 +1,6 @@
 # Astromech---Magic-Panel
 
-Sketch for running Astromech Magic Panel using Adafruit 16x8 LED Matrix Backpack
+Sketch for running Astromech Magic Panel using Adafruit 16x8 LED Matrix Backpack and a Arduino Pro Mini
 
 Re-Worked by: RockHopper (Ken Weddel)  
 Original Sketch: IA-PARTS.com
@@ -35,12 +35,22 @@ Due to the off-the-shelf dimensions of the 16x8 matrix and the CSR specification
 
 Wiring
 -------------------------------------------------------------------------------
-- Power comes from 5V source and needs to be connected to both the Arduino and LED matrix. Using a longer (17mm) pin header bent 90 degrees, you can daisy-chain the connection. (see pictures)
+Power comes from a 5V source and needs to be connected to both the Arduino and LED matrix. Using a longer (17mm) pin header bent 90 degrees, you can daisy-chain the connection. (see pictures)
 - The patterns can be triggered in the following ways:
 A) Jumper(7 & 8) - All LED ON  
 B) Jumper(8 & 9) - Random pattern  
-C) Marcduino Controlled (signals LOW to pin #7 w/ delay to cause a flashing pattern)  
+C) MarcDuino Controlled (signals LOW to pin #7 w/ delay to cause a flashing pattern)  
 D) I2C Control (via "R2 Touch" through Marcduino)  
+
+MarcDuino Wiring
+-------------------------------------------------------------------------------
+The I2C header on the MarcDuino cannot supply enough power to run both Arduino Pro Mini and the LED matrix
+
+Solution: 
+- Matrix I2C pin SDA to MarcDuino I2C header pin SDA
+- Matrix I2C pin SCL to MarcDuino I2C header pin SCL
+- Matrix I2C pin GND to MarcDuino Magic Panel header pin "-"
+- Matrix I2C pin +5V to MarcDuino Magic Panel header pin "+"
 
 I2C commands:
 -------------------------------------------------------------------------------
