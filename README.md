@@ -36,7 +36,9 @@ Due to the off-the-shelf dimensions of the 16x8 matrix and the CSR specification
 Wiring
 -------------------------------------------------------------------------------
 Power comes from a 5V source and needs to be connected to both the Arduino and LED matrix. Using a longer (17mm) pin header bent 90 degrees, you can daisy-chain the connection. (see pictures)
-- The patterns can be triggered in the following ways:
+
+The patterns can be triggered in the following ways:
+ 
 A) Jumper(7 & 8) - All LED ON  
 B) Jumper(8 & 9) - Random pattern  
 C) MarcDuino Controlled (signals LOW to pin #7 w/ delay to cause a flashing pattern)  
