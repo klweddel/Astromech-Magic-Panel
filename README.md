@@ -35,7 +35,9 @@ Due to the off-the-shelf dimensions of the 16x8 matrix and the CSR specification
 
 Wiring
 -------------------------------------------------------------------------------
-Power comes from a 5V source and needs to be connected to both the Arduino and LED matrix. Using a longer (17mm) pin header bent 90 degrees, you can daisy-chain the connection. (see pictures)
+Power comes from a 5V source and needs to be connected to both the Arduino and LED matrix. Using a longer (17mm) pin header bent 90 degrees, you can daisy-chain the connection. 
+https://www.amazon.com/Gikfun-2-54mm-Single-Breakaway-Arduino/dp/B00U8OCENY
+(see pictures)
 
 The patterns can be triggered in the following ways:
  
